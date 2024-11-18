@@ -30,6 +30,11 @@ public:
 
     std::string getFriendsWithSameNameLength() const;
 
+    void changeAllWordsInStatus(const std::string& word);
+
+    void changeWordInStatus(const std::string& word_to_replace, const std::string& new_word);
+
+
   
 };
 #pragma once
